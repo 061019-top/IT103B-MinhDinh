@@ -8,6 +8,6 @@ let orders = [
 let revenues = [1500, 2800, 1200, -500, 3200];
 let newarray = [];
 for (let index = 0; i < orders.length; index++) {
-   newArray.push(orders[index] + " mang về " + revenues[index] + " USD");
+   newArray.push(orders[index] + " mang về " + revenues[index] + " USD")
 }
 console.log(newarray)
