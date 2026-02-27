@@ -9,7 +9,7 @@ const player = {
 let isKeyPlayer;
 
 const showPlayer = (player) => {
-    let rate = ((player.goals + player.assists) / player.matchesPlayed).toFixed(2);
+    let rate = ((player.goals + player.assists) / player.matchesPlayed);
     
     if (rate >= 1) {
         isKeyPlayer = true;
