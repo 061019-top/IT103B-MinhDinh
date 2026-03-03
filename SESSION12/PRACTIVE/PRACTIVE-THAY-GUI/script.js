@@ -190,7 +190,7 @@ do {
         case 5:
             searchWarrior(warriors);
             break;
-        case 6:
+        case 6:z
             countTotalPower(warriors);
             break;
         case 0:
