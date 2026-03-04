@@ -25,11 +25,11 @@ console.log(person_v2["fullName"]);
 // create
 person_v2.email = "rgvhbjnk@gmail.com";
 
-person_v2.handlehandleSayHello = () => {
-  console.log("Xin chao cac ban");
-};
+// person_v2.handlehandleSayHello = () => {
+//   console.log("Xin chao cac ban");
+// };
 
-console.log(person_v2.handlehandleSayHello());
+// console.log(person_v2.handlehandleSayHello());
 
 // update
 person_v2.age = 21;
@@ -73,6 +73,6 @@ console.log(person_max.fullName.firstName);
 
 // Duyeet qua object
 
-console.log(Object.keys(person_v2));
+console.log(Object.keys(person_v2) + "đây là key");
 
-console.log(Object.entries(person_v2));
+console.log(Object.entries(person_v2) + "đây là entries");
