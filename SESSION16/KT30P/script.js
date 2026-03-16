@@ -1,5 +1,5 @@
-let formElement = document.getElementsByClassName("form")[0];
-let emailInput = document.getElementsByClassName("mail")[0];
+let formElement = document.getElementsByClassName("form")[0]
+let emailInput = document.getElementsByClassName("mail")[0]
 let passwordInput = document.getElementsByClassName("pass")[0];
 let rePasswordInput = document.getElementsByClassName("repass")[0];
 
