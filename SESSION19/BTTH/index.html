@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách phim muốn xem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="custom-alert" class="custom-alert">✅ Đã lưu phim thành công!</div>
+
+    <div class="app-container">
+        <h2 class="app-title">🎥 Danh sách phim muốn xem</h2>
+        
+        <div class="input-group">
+            <input type="text" id="movie-title" placeholder="Tiêu đề phim">
+        </div>
+        <div class="input-group">
+            <textarea id="movie-desc" placeholder="Lý do / Mô tả muốn xem..."></textarea>
+        </div>
+        
+        <div class="action-group">
+            <button class="save-action" id="save-movie">Lưu phim</button>
+            <button class="clear-all-action" id="clear-all">Xóa tất cả</button>
+        </div>
+
+        <h3 class="list-header" id="list-count">Danh sách của bạn (0)</h3>
+        <div class="movie-list" id="movie-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

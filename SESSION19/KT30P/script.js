@@ -56,5 +56,9 @@ submit.addEventListener("click", (e) => {
       fullname: nameValue,  username: nameLoginValue,  password:comPassVlue 
   }
     localStorage.setItem("dataUser", JSON.stringify(dataUser));
+    nameUser=""
+    nameLogin=""
+    passUser=""
+    comPass=""
     alert('Bạn đã đăng ký thành công ')
 });

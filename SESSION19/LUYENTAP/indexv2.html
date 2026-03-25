@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Parsing a JSON Array.</h2>
+<p>Data written as an JSON array will be parsed into a JavaScript array.</p>
+<p id="demo"></p>
+
+<script>
+const text = '[ "Ford", "BMW", "Audi", "Fiat" ]';
+const textv2 = JSON.stringify(text)
+console.log(`đây là text sau khi stringgify ${textv2}`);
+
+const myArr = JSON.parse(text);
+console.log(`đây là text sau khi parse ${myArr}`);
+
+document.getElementById("demo").innerHTML = myArr[0];
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
