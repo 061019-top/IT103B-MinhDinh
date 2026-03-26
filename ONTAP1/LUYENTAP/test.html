@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btnAction">Thêm</button>
+    <script>
+  const btn = document.getElementById("btnAction");
+let isDelete = false; // Biến ghi nhớ trạng thái hiện tại
+
+btn.onclick = function() {
+  isDelete = !isDelete; // Đảo ngược trạng thái (true thành false, false thành true)
+  
+  if (isDelete) {
+    btn.textContent = "Xóa";
+    btn.style.backgroundColor = "red";
+  } else {
+    btn.textContent = "Thêm";
+    btn.style.backgroundColor = "green";
+  }
+};
+    </script>
+  </body>
+</html>
